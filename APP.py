@@ -558,8 +558,6 @@ mydb = mysql.connector.connect(
 )
 mycursor = mydb.cursor()
 
-#show_tables = st.radio(":violet[Select the table]" , ("CHANNELS" , "PLAYLISTS" , "VIDEOS" , "COMMENTS"))
-
 tabs = ["Channel Details", "Playlist Details", "Video Details", "Comment Details"]
 selected_tab = st.sidebar.radio(":violet[Select Tab]", tabs)
 
